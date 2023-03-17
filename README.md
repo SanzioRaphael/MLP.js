@@ -1,3 +1,5 @@
+CDN: https://cdn.jsdelivr.net/gh/SanzioRaphael/MLP.js@62b8cc8dac5c69c130da308511d9ad43a499b3ec/mlp.js
+</br></br>
 # Documentação da Biblioteca MLP.js
 <sub>A classe MLP representa uma rede neural de camadas densas com uma camada de entrada, uma ou mais camadas ocultas e uma camada de saída. Esta implementação utiliza as funções de ativação ReLU e sigmoid. Esta classe também fornece métodos para treinamento da rede neural e previsão.</sub>
 </br></br>
