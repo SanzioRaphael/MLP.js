@@ -41,5 +41,5 @@
 <p><sub>mlp.train(input, target, 0.1, 1000);</sub></p>
 <p><sub>const input = [1, 0];</sub></p>
 <p><sub>const output = mlp.predict(input);</sub></p>
-<p><sub>console.log(output); // exibe a previsão para a entrada [1, 0]</sub></p>]
+<p><sub>console.log(output); // exibe a previsão para a entrada [1, 0]</sub></p>
   </strong>
