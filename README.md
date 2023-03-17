@@ -34,11 +34,12 @@
 </br></br>
 <h3>Exemplo:</h3></br>
 <sub>vamos criar uma rede neural com 2 neurônios na camada de entrada, 3 neurônios na camada escondida e 1 neurônio na camada de saída.</sub>
-</br></br>
+</br></br><strong>
 <p><sub>const mlp = new MLP(2, [3], 1);</sub></p>
 <p><sub>const input = [[0, 0], [0, 1]];</sub></p>
 <p><sub>const target = [[0], [1]];</sub></p>
 <p><sub>mlp.train(input, target, 0.1, 1000);</sub></p>
 <p><sub>const input = [1, 0];</sub></p>
 <p><sub>const output = mlp.predict(input);</sub></p>
-<p><sub>console.log(output); // exibe a previsão para a entrada [1, 0]</sub></p>
+<p><sub>console.log(output); // exibe a previsão para a entrada [1, 0]</sub></p>]
+  </strong>
