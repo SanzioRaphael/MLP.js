@@ -10,3 +10,24 @@
 <p><sub><strong>hiddenLayers</strong>: um inteiro ou um array de inteiros, representando o número de neurônios em cada camada oculta. Se for um inteiro, a rede neural terá uma única camada oculta com esse número de neurônios. Se for um array, a rede neural terá o número de camadas ocultas igual ao comprimento do array e o número de neurônios em cada camada será dado pelos elementos do array.</sub></p>
 <p><sub><strong>outputLayer</strong>: número de neurônios na camada de saída</sub></p>
 </br></br>
+<h1>Métodos</h1>
+<p><sub><strong>randomMatrix(rows, cols)</strong></sub></p>
+<p><sub>Gera uma matriz rows x cols com valores aleatórios entre -1 e 1.</sub></p>
+</br>
+<p><sub><strong>matrixMultiply(a, b)</strong></sub></p>
+<p><sub>Realiza a multiplicação de matrizes a x b e retorna o resultado.</sub></p>
+</br>
+<p><sub><strong>matrixAdd(a, b)</strong></sub></p>
+<p><sub>Realiza a soma de matrizes a e b e retorna o resultado.</sub></p>
+</br>
+<p><sub><strong>sigmoid(x)</strong></sub></p>
+<p><sub>Retorna o valor da função de ativação sigmoid aplicada ao valor x.</sub></p>
+</br>
+<p><sub><strong>relu(x)</strong></sub></p>
+<p><sub>Retorna o valor da função de ativação ReLU aplicada ao valor x.</sub></p>
+</br>
+<p><sub><strong>train(input, target, learningRate, epochs)</strong></sub></p>
+<p><sub>Realiza o treinamento da rede neural com base em um conjunto de dados de entrada input e de saída esperada target. learningRate define a taxa de aprendizado da rede e epochs define o número de épocas de treinamento. Durante o treinamento, a função realiza o cálculo dos gradientes e atualiza os pesos e bias da rede neural.</sub></p>
+  </br>
+<p><sub><strong>predict(input)</strong></sub></p>
+<p><sub>Utiliza a rede neural treinada para fazer previsões com base em um conjunto de dados de entrada input. Retorna um array com as previsões correspondentes para cada entrada.</sub></p>
